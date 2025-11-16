@@ -3,7 +3,7 @@ from telebot.types import InputMediaAnimation
 
 TOKEN = "ТОКЕН"
 POST_LINK = "https://t.me/bfmc_rus/1"
-GIF_PATH = "gif.gif"
+GIF_PATH = "IMG_1490.MP4"
 
 bot = telebot.TeleBot(TOKEN)
 
