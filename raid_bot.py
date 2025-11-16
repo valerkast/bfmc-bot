@@ -13,7 +13,7 @@ def send_post():
     for group in groups:
         try:
             with open(GIF_PATH, 'rb') as gif:
-                bot.send_animation(group, gif, caption=POST_LINK)
+                bot.send_animation(group,gif,caption=POST_LINK)
         except:
             pass
         time.sleep(1)
