@@ -1,7 +1,7 @@
 import telebot, time
 from telebot.types import InputMediaAnimation
 
-TOKEN = "ТОКЕН"
+TOKEN = "ТОКЕН_ОТ_BOTFATHER"
 POST_LINK = "https://t.me/bfmc_rus/1"
 GIF_PATH = "IMG_1490.MP4"
 
@@ -13,16 +13,11 @@ def send_post():
     for group in groups:
         try:
             with open(GIF_PATH, 'rb') as gif:
-                bot.send_animation(group,gif,caption=POST_LINK)
+                bot.send_animation(group, gif, caption=POST_LINK)
         except:
             pass
         time.sleep(1)
 
 while True:
     send_post()
-    time.sleep(600)
-``` |
-| **4** | **Commit** |
-| **5** | Добавь `groups_ru.txt` (вставь 100+ групп) |
-| **6** | Добавь `gif.gif` |
-| **7** | Добавь `requirements.txt`:  
+    time.sleep(600)  # каждые 10 мин
