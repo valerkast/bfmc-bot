@@ -1,7 +1,7 @@
 import telebot, time
 from telebot.types import InputMediaAnimation
 
-TOKEN = "ТОКЕН_ОТ_BOTFATHER"
+TOKEN = "8288969679:AAEjHtj7c1QHU-Xd9KDeCxqg9I0Bcf9mi90"
 POST_LINK = "https://t.me/bfmc_rus/1"
 GIF_PATH = "IMG_1490.MP4"
 
